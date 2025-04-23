@@ -11,10 +11,10 @@ print(cwd)
 #----------------------------------------------------
 #Modify
 #----------------------------------------------------
-results = '20250112-122032.json'
+results = '20250217-153929_FourActiveSpacePCA_QMLStateBasicGates.json'
 
-E_FCI = -1.136189454088
-num_qubits = 4
+E_FCI = -559.702929
+num_qubits = 8
 #----------------------------------------------------
 
 with open(os.path.join(cwd, results)) as f:

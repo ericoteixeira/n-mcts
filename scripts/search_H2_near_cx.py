@@ -1,6 +1,9 @@
 import os
 os.environ["OMP_NUM_THREADS"] = "12"
 
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from qas.mcts.mcts import search, TreeNode, circuitModelTuning
 from qas.qml_models.qml_gate_ops import QMLPool
 from qas.qml_models.qml_models_legacy import FourQubitH2_VaccumInitial
